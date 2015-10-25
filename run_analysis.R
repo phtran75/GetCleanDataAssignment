@@ -158,5 +158,6 @@ summarize(final_dataset, BodyAccelerationX_mean = mean(BodyAccelerationX_mean, n
           FreqBodyBodyGyroscopeJerkMag_std = mean(FreqBodyBodyGyroscopeJerkMag_std, na.rm = TRUE)
 )
 
+# final_dataset is the result
 
 
