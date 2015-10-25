@@ -3,16 +3,41 @@
 # Getting and Cleaning Data Course Project
 # The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
+Column 1
 Subject		2
     The subject who performed the activity for each window sample. Its range is from 1 to 30.
 
+Column 2
 Activity	18
     Training and test labels. Initial range is from 1 to 6.
 
+Column 3 to 68
+Measurements.
+All the fields have a lenght of 16.
 
-
-
-
-
-
-To_BE_FILLED
+Here is the list:
+BodyAccelerationX_mean, BodyAccelerationY_mean, BodyAccelerationZ_mean
+BodyAccelerationX_std, BodyAccelerationY_std, BodyAccelerationZ_std
+GravityAccelerationX_mean, GravityAccelerationY_mean, GravityAccelerationZ_mean
+GravityAccelerationX_std, GravityAccelerationY_std, GravityAccelerationZ_std
+BodyAccelerationJerkX_mean, BodyAccelerationJerkY_mean, BodyAccelerationJerkZ_mean
+BodyAccelerationJerkX_std, BodyAccelerationJerkY_std, BodyAccelerationJerkZ_std
+BodyGyroscopeX_mean, BodyGyroscopeY_mean, BodyGyroscopeZ_mean
+BodyGyroscopeX_std, BodyGyroscopeY_std, BodyGyroscopeZ_std
+BodyGyroscopeJerkX_mean, BodyGyroscopeJerkY_mean, BodyGyroscopeJerkZ_mean
+BodyGyroscopeJerkX_std, BodyGyroscopeJerkY_std, BodyGyroscopeJerkZ_std
+BodyAccelerationMag_mean, BodyAccelerationMag_std
+GravityAccelerationMag_mean, GravityAccelerationMag_std
+BodyAccelerationJerkMag_mean, BodyAccelerationJerkMag_std
+BodyGyroscopeMag_mean, BodyGyroscopeMag_std
+BodyGyroscopeJerkMag_mean, BodyGyroscopeJerkMag_std
+FreqBodyAccelerationX_mean, FreqBodyAccelerationY_mean, FreqBodyAccelerationZ_mean
+FreqBodyAccelerationX_std, FreqBodyAccelerationY_std, FreqBodyAccelerationZ_std
+FreqBodyAccelerationJerkX_mean, FreqBodyAccelerationJerkY_mean, FreqBodyAccelerationJerkZ_mean
+FreqBodyAccelerationJerkX_std, FreqBodyAccelerationJerkY_std, FreqBodyAccelerationJerkZ_std
+FreqBodyGyroscopeX_mean, FreqBodyGyroscopeY_mean, FreqBodyGyroscopeZ_mean
+FreqBodyGyroscopeX_std, FreqBodyGyroscopeY_std, FreqBodyGyroscopeZ_std
+FreqBodyAccelerationMag_mean, FreqBodyAccelerationMag_std
+FreqBodyBodyAccelerationJerkMag_mean, FreqBodyBodyAccelerationJerkMag_std
+FreqBodyBodyGyroscopeMag_mean, FreqBodyBodyGyroscopeMag_std
+FreqBodyBodyGyroscopeJerkMag_mean, FreqBodyBodyGyroscopeJerkMag_std

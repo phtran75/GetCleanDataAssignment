@@ -11,8 +11,11 @@ The script uses "dplyr", which is very useful.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
   I counted 66 columns concerned by "mean" or "std".
   
-3. Uses descriptive activity names to name the activities in the data set
-  Just make basic replacements from 1 to 6.
+3. Uses descriptive activity names to name the activities in the data set.
+  Just makes basic replacements from 1 to 6.
   
-
+4. Appropriately labels the data set with descriptive variable names.
+  "Just" makes basic 66 replacements with some descriptive words from features_info.txt.
+  
+5. TO BE CONTINUED...
   

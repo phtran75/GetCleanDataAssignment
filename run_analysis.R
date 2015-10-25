@@ -50,3 +50,35 @@ tmp_dataset$Activity[tmp_dataset$Activity == 3] <- "WALKING_DOWNSTAIRS"
 tmp_dataset$Activity[tmp_dataset$Activity == 4] <- "SITTING"
 tmp_dataset$Activity[tmp_dataset$Activity == 5] <- "STANDING"
 tmp_dataset$Activity[tmp_dataset$Activity == 6] <- "LAYING"
+
+# Appropriately labels the data set with descriptive variable names.
+# pff
+tmp_dataset <- rename(tmp_dataset, BodyAccelerationX_mean = V1, BodyAccelerationY_mean = V2, BodyAccelerationZ_mean = V3)
+tmp_dataset <- rename(tmp_dataset, BodyAccelerationX_std = V4, BodyAccelerationY_std = V5, BodyAccelerationZ_std = V6)
+tmp_dataset <- rename(tmp_dataset, GravityAccelerationX_mean = V41, GravityAccelerationY_mean = V42, GravityAccelerationZ_mean = V43)
+tmp_dataset <- rename(tmp_dataset, GravityAccelerationX_std = V44, GravityAccelerationY_std = V45, GravityAccelerationZ_std = V46)
+tmp_dataset <- rename(tmp_dataset, BodyAccelerationJerkX_mean = V81, BodyAccelerationJerkY_mean = V82, BodyAccelerationJerkZ_mean = V83)
+tmp_dataset <- rename(tmp_dataset, BodyAccelerationJerkX_std = V84, BodyAccelerationJerkY_std = V85, BodyAccelerationJerkZ_std = V86)
+tmp_dataset <- rename(tmp_dataset, BodyGyroscopeX_mean = V121, BodyGyroscopeY_mean = V122, BodyGyroscopeZ_mean = V123)
+tmp_dataset <- rename(tmp_dataset, BodyGyroscopeX_std = V124, BodyGyroscopeY_std = V125, BodyGyroscopeZ_std = V126)
+tmp_dataset <- rename(tmp_dataset, BodyGyroscopeJerkX_mean = V161, BodyGyroscopeJerkY_mean = V162, BodyGyroscopeJerkZ_mean = V163)
+tmp_dataset <- rename(tmp_dataset, BodyGyroscopeJerkX_std = V164, BodyGyroscopeJerkY_std = V165, BodyGyroscopeJerkZ_std = V166)
+tmp_dataset <- rename(tmp_dataset, BodyAccelerationMag_mean = V201, BodyAccelerationMag_std = V202)
+tmp_dataset <- rename(tmp_dataset, GravityAccelerationMag_mean = V214, GravityAccelerationMag_std = V215)
+tmp_dataset <- rename(tmp_dataset, BodyAccelerationJerkMag_mean = V227, BodyAccelerationJerkMag_std = V228)
+tmp_dataset <- rename(tmp_dataset, BodyGyroscopeMag_mean = V240, BodyGyroscopeMag_std = V241)
+tmp_dataset <- rename(tmp_dataset, BodyGyroscopeJerkMag_mean = V253, BodyGyroscopeJerkMag_std = V254)
+tmp_dataset <- rename(tmp_dataset, FreqBodyAccelerationX_mean = V266, FreqBodyAccelerationY_mean = V267, FreqBodyAccelerationZ_mean = V268)
+tmp_dataset <- rename(tmp_dataset, FreqBodyAccelerationX_std = V269, FreqBodyAccelerationY_std = V270, FreqBodyAccelerationZ_std = V271)
+tmp_dataset <- rename(tmp_dataset, FreqBodyAccelerationJerkX_mean = V345, FreqBodyAccelerationJerkY_mean = V346, FreqBodyAccelerationJerkZ_mean = V347)
+tmp_dataset <- rename(tmp_dataset, FreqBodyAccelerationJerkX_std = V348, FreqBodyAccelerationJerkY_std = V349, FreqBodyAccelerationJerkZ_std = V350)
+tmp_dataset <- rename(tmp_dataset, FreqBodyGyroscopeX_mean = V424, FreqBodyGyroscopeY_mean = V425, FreqBodyGyroscopeZ_mean = V426)
+tmp_dataset <- rename(tmp_dataset, FreqBodyGyroscopeX_std = V427, FreqBodyGyroscopeY_std = V428, FreqBodyGyroscopeZ_std = V429)
+tmp_dataset <- rename(tmp_dataset, FreqBodyAccelerationMag_mean = V503, FreqBodyAccelerationMag_std = V504)
+tmp_dataset <- rename(tmp_dataset, FreqBodyBodyAccelerationJerkMag_mean = V516, FreqBodyBodyAccelerationJerkMag_std = V517)
+tmp_dataset <- rename(tmp_dataset, FreqBodyBodyGyroscopeMag_mean = V529, FreqBodyBodyGyroscopeMag_std = V530)
+tmp_dataset <- rename(tmp_dataset, FreqBodyBodyGyroscopeJerkMag_mean = V542, FreqBodyBodyGyroscopeJerkMag_std = V543)
+
+# From the data set in step 4, creates a second, independent tidy data set 
+# with the average of each variable for each activity and each subject.
+# TO BE DONE
