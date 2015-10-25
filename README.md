@@ -17,5 +17,7 @@ The script uses "dplyr", which is very useful.
 4. Appropriately labels the data set with descriptive variable names.
   "Just" makes basic 66 replacements with some descriptive words from features_info.txt.
   
-5. TO BE CONTINUED...
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  Use group_by and summerize to get a final result.
+
   
