@@ -83,7 +83,7 @@ tmp_dataset <- rename(tmp_dataset, FreqBodyBodyGyroscopeJerkMag_mean = V542, Fre
 # with the average of each variable for each activity and each subject.
 # Final mean Calculation...
 final_dataset <- group_by(tmp_dataset, Subject, Activity)
-summarize(final_dataset, BodyAccelerationX_mean = mean(BodyAccelerationX_mean, na.rm = TRUE),
+final_dataset <- summarize(final_dataset, BodyAccelerationX_mean = mean(BodyAccelerationX_mean, na.rm = TRUE),
           BodyAccelerationY_mean = mean(BodyAccelerationY_mean, na.rm = TRUE),
           BodyAccelerationY_mean = mean(BodyAccelerationY_mean, na.rm = TRUE),
           BodyAccelerationZ_mean = mean(BodyAccelerationZ_mean, na.rm = TRUE),
