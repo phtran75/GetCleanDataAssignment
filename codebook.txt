@@ -1,0 +1,18 @@
+#DATA DICTIONNARY
+# 
+# Getting and Cleaning Data Course Project
+# The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+
+Subject		2
+    The subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+Activity	18
+    Training and test labels. Initial range is from 1 to 6.
+
+
+
+
+
+
+
+To_BE_FILLED
